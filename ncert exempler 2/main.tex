@@ -86,6 +86,7 @@
 
 \vspace{3cm}
 
+\let\vec\mathbf
 \textbf{Question 10.13.3.34}\\
 There are 1000 sealed envelopes in a box, 10 of them contain a cash prize of
 Rs 100 each, 100 of them contain a cash prize of Rs 50 each and 200 of them
@@ -99,11 +100,23 @@ Let
 	\begin{cases}
 		1, & \text{if cash prize}\\ 
 		0, & \text{if no cash prize}
-	\end{cases}	
-\end{align}
-Let $X_{1}​$ represent the random variable for selecting an envelope with a cash prize of Rs $100$.\\
-Let $X_{2}​$ represent the random variable for selecting an envelope with a cash prize of Rs $50$.\\
-Let $X_{3}$​ represent the random variable for selecting an envelope with a cash prize of Rs $10$.\\
+	\end{cases}
+\end{align}		
+\begin{table}[h!]
+ \begin{center}
+  \caption{random variable}
+  \label{tab: table1}
+\begin{tabular}{|l|c|}
+    \hline
+    Variable & Description  \\
+    \hline
+     X1 & for selecting an envelope with a cash prize of Rs $100$\\
+     X2 & for selecting an envelope with a cash prize of Rs $50$\\
+     X3 & for selecting an envelope with a cash prize of Rs $10$ \\
+     \hline 
+\end{tabular}
+\end{center}
+\end{table}
 Then  
 \begin{align}
                P_{X1}\brak{1} &= \frac{10}{1000}\\
@@ -123,3 +136,5 @@ Probablity of no cash prize
                &=0.69
 \end{align}               
 \end{document}
+
+

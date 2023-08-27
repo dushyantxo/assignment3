@@ -96,7 +96,7 @@ contains no cash prize?.\\
 \solution
 Let 
 \begin{align}
-	 X =
+	 X_n =
 	\begin{cases}
 		1, & \text{if cash prize}\\ 
 		0, & \text{if no cash prize}
@@ -110,28 +110,29 @@ Let
     \hline
     Variable & Description  \\
     \hline
-     X1 & for selecting an envelope with a cash prize of Rs $100$\\
-     X2 & for selecting an envelope with a cash prize of Rs $50$\\
-     X3 & for selecting an envelope with a cash prize of Rs $10$ \\
+     X_1 & cash prize of Rs $100$\\
+     X_2 & cash prize of Rs $50$\\
+     X_3 & cash prize of Rs $10$ \\
+     X_4 & cash prize in total\\
      \hline 
 \end{tabular}
 \end{center}
 \end{table}
 Then  
 \begin{align}
-               P_{X1}\brak{1} &= \frac{10}{1000}\\
+               pX_1\brak{1} &= \frac{10}{1000}\\
                &=\frac{1}{100}\\
                &=0.01\\
-               P_{X2}\brak{1} &= \frac{100}{1000}\\
+               pX_2\brak{1} &= \frac{100}{1000}\\
                &=\frac{1}{10}\\
                &=0.1\\
-               P_{X3}\brak{1} &= \frac{200}{1000}\\
+               pX_3\brak{1} &= \frac{200}{1000}\\
                &=\frac{2}{10}\\
                &=0.2                       
 \end{align}
 Probablity of no cash prize
 \begin{align}
-               P_X\brak{0} &= 1-\brak{P_{X1}\brak{1} + P_{X2}\brak{1} + P_{X3}\brak{1}}\\
+               pX_4\brak{0} &= 1-\brak{pX_1\brak{1} + pX_2\brak{1} + pX_3\brak{1}}\\
                &=1-\frac{31}{100}\\
                &=0.69
 \end{align}               

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.4)  25 AUG 2023 00:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.4)  27 AUG 2023 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1194,17 +1194,109 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 9
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Overfull \hbox (0.95152pt too wide) in paragraph at lines 109--118
- [] 
- []
-
+! Missing $ inserted.
+<inserted text> 
+                $
+l.113      X_
+             1 & cash prize of Rs $100$\\
+? 
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.113      X_1 &
+                 cash prize of Rs $100$\\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.113      X_1 &
+                 cash prize of Rs $100$\\
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.113      X_1 &
+                 cash prize of Rs $100$\\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.114      X_
+             2 & cash prize of Rs $50$\\
+? 
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.114      X_2 &
+                 cash prize of Rs $50$\\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.114      X_2 &
+                 cash prize of Rs $50$\\
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.114      X_2 &
+                 cash prize of Rs $50$\\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.115      X_
+             3 & cash prize of Rs $10$ \\
+? 
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.115      X_3 &
+                 cash prize of Rs $10$ \\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.115      X_3 &
+                 cash prize of Rs $10$ \\
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.115      X_3 &
+                 cash prize of Rs $10$ \\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.116      X_
+             4 & cash prize in total\\
+? 
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.116      X_4 &
+                 cash prize in total\\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.116      X_4 &
+                 cash prize in total\\
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.116      X_4 &
+                 cash prize in total\\
+? 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.138 \end{document}
+l.139 \end{document}
                     
 
 ] (./main.aux)
@@ -1212,11 +1304,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29101 strings out of 480171
- 574371 string characters out of 5894490
- 834358 words of memory out of 5000000
+ 29103 strings out of 480171
+ 574382 string characters out of 5894490
+ 834360 words of memory out of 5000000
  46439 multiletter control sequences out of 15000+600000
- 532350 words of font info for 161 fonts, out of 8000000 for 9000
+ 533666 words of font info for 163 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  101i,16n,96p,408b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1227,7 +1319,7 @@ fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 44610 bytes).
+Output written on main.pdf (1 page, 47852 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

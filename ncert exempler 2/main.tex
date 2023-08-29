@@ -104,10 +104,15 @@ contains no cash prize?.\\
 \solution
 Let 
 \begin{align}
-	 X_n =
+	 X_n &=
 	\begin{cases}
 		1, & \text{if cash prize}\\ 
 		0, & \text{if no cash prize}
+	\end{cases}\\	
+	 Y &=
+	\begin{cases}
+		1, & \text{envelope with cash prize}\\ 
+		0, & \text{envelope with no cash prize}
 	\end{cases}
 \end{align}		
 \begin{table}[h!]
@@ -121,7 +126,7 @@ Let
      X_1 & cash prize of Rs $100$\\
      X_2 & cash prize of Rs $50$\\
      X_3 & cash prize of Rs $10$ \\
-     X_4 & cash prize in total\\
+     Y   & Envelope \\
      \hline 
 \end{tabular}
 \end{center}
@@ -140,7 +145,7 @@ Then
 \end{align}
 Probablity of no cash prize
 \begin{align}
-               pX_4\brak{0} &= 1-\brak{pX_1\brak{1} + pX_2\brak{1} + pX_3\brak{1}}\\
+               pY\brak{0} &= 1-\brak{pX_1\brak{1} + pX_2\brak{1} + pX_3\brak{1}}\\
                &=1-\frac{31}{100}\\
                &=0.69
 \end{align}               

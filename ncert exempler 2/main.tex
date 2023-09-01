@@ -103,35 +103,29 @@ are well shuffled and an envelope is picked up out, what is the probability that
 contains no cash prize?.\\
 \solution
 Let 
-\begin{align}
-	 X_n &=
-	\begin{cases}
-		1, & \text{if cash prize}\\ 
-		0, & \text{if no cash prize}
-	\end{cases}\\	
-	 Y &=
-	\begin{cases}
-		1, & \text{envelope with cash prize}\\ 
-		0, & \text{envelope with no cash prize}
-	\end{cases}
-\end{align}		
 \begin{table}[h!]
  \begin{center}
   \caption{random variable}
   \label{tab: table1}
-\begin{tabular}{|l|c|}
+\begin{tabular}{|l|c|r|}
     \hline
-    Variable & Description  \\
+    Variable & value & Description  \\
     \hline
-     X_1 & cash prize of Rs $100$\\
-     X_2 & cash prize of Rs $50$\\
-     X_3 & cash prize of Rs $10$ \\
-     Y   & Envelope \\
+     X_1 & 1 & cash prize of Rs $100$\\
+         & 0 & no cash prize of Rs $100$\\
+         \hline
+     X_2 & 1 & cash prize of Rs $50$\\
+         & 0 & no cash prize of Rs $50$\\
+         \hline
+     X_3 & 1 & cash prize of Rs $10$ \\
+         & 0 & no cash prize of Rs $10$\\
+         \hline
+     Y   & 1 & Envelope with prize\\
+         & 0 & Envelope with no prize\\
      \hline 
 \end{tabular}
 \end{center}
-\end{table}
-Then  
+\end{table}  
 \begin{align}
                pX_1\brak{1} &= \frac{10}{1000}\\
                &=\frac{1}{100}\\

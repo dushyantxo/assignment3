@@ -94,7 +94,7 @@ Ncert exempler
 
 \newpage
 
-\let\vec\mathbf
+\maketitle
 \textbf{Question 10.13.3.34}\\
 There are 1000 sealed envelopes in a box, 10 of them contain a cash prize of
 Rs 100 each, 100 of them contain a cash prize of Rs 50 each and 200 of them
@@ -102,47 +102,36 @@ contain a cash prize of Rs 10 each and rest do not contain any cash prize. If th
 are well shuffled and an envelope is picked up out, what is the probability that it
 contains no cash prize?.\\
 \solution
-Let 
-\begin{table}[h!]
- \begin{center}
-  \caption{random variable}
-  \label{tab: table1}
-\begin{tabular}{|l|c|r|}
-    \hline
-    Variable & value & Description  \\
-    \hline
-     X_1 & 1 & cash prize of Rs $100$\\
-         & 0 & no cash prize of Rs $100$\\
-         \hline
-     X_2 & 1 & cash prize of Rs $50$\\
-         & 0 & no cash prize of Rs $50$\\
-         \hline
-     X_3 & 1 & cash prize of Rs $10$ \\
-         & 0 & no cash prize of Rs $10$\\
-         \hline
-     Y   & 1 & Envelope with prize\\
-         & 0 & Envelope with no prize\\
-     \hline 
+\begin{table}[H]
+\begin{tabular}{|c|c|c|}
+\hline
+Random variable &Value &Definition\\ \hline
+\multirow{}{}{X} &0 & cash prize of Rs 100\\
+&1 &cash prize of Rs 50\\
+&2 &cash prize of Rs 10\\ \hline
+\multirow{}{}{Y} &0 &Envelope with cash prize\\
+&1 & no cash prize\\
+\hline
 \end{tabular}
-\end{center}
-\end{table}  
+\caption{Distribution}
+\label{tab:Distribution}
+\end{table}
+Probabilty of envelope with no cash prize,
 \begin{align}
-               pX_1\brak{1} &= \frac{10}{1000}\\
+               p\brak{X=0} &= \frac{10}{1000}\\
                &=\frac{1}{100}\\
                &=0.01\\
-               pX_2\brak{1} &= \frac{100}{1000}\\
+               p\brak{X=1} &= \frac{100}{1000}\\
                &=\frac{1}{10}\\
                &=0.1\\
-               pX_3\brak{1} &= \frac{200}{1000}\\
+               p\brak{X=2} &= \frac{200}{1000}\\
                &=\frac{2}{10}\\
                &=0.2                       
 \end{align}
 Probablity of no cash prize
 \begin{align}
-               pY\brak{0} &= 1-\brak{pX_1\brak{1} + pX_2\brak{1} + pX_3\brak{1}}\\
+               p\brak{Y=1} &= 1-\brak{p\brak{X=0} + p\brak{X=1} + p\brak{X=2}}\\
                &=1-\frac{31}{100}\\
                &=0.69
-\end{align}               
+\end{align}
 \end{document}
-
-

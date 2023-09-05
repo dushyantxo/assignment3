@@ -116,21 +116,17 @@ Random variable &Value &Definition\\ \hline
 \caption{Distribution}
 \label{tab:Distribution}
 \end{table}
+Conditional Probabilty,
 \begin{align}
-               p\brak{X=0} &= \frac{10}{1000}\\
-               &=\frac{1}{100}\\
-               &=0.01\\
-               p\brak{X=1} &= \frac{100}{1000}\\
-               &=\frac{1}{10}\\
-               &=0.1\\
-               p\brak{X=2} &= \frac{200}{1000}\\
-               &=\frac{2}{10}\\
-               &=0.2                       
+\begin{cases} 
+\pr{Y=0 | X=0} = \frac{1}{100}\\
+\pr{Y=0|X=1} = \frac{1}{10}\\
+\pr{Y=0|X=2} = \frac{2}{10}\\
+\end{cases}
 \end{align}
 Probablity of envelope with no cash prize
 \begin{align}
-               p\brak{Y=1} &= 1-\brak{p\brak{X=0} + p\brak{X=1} + p\brak{X=2}}\\
-               &=1-\frac{31}{100}\\
+               p\brak{Y=1} &= 1-\brak{p\brak{Y=0 | X=0} + p\brak{Y=0|X=1} + p\brak{Y=0|X=2}}\\
                &=0.69
 \end{align}
 \end{document}

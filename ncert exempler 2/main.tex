@@ -119,14 +119,14 @@ Random variable &Value &Definition\\ \hline
 Conditional Probabilty,
 \begin{align}
 \begin{cases} 
-\pr{Y=0 | X=0} = \frac{1}{100}\\
-\pr{Y=0|X=1} = \frac{1}{10}\\
-\pr{Y=0|X=2} = \frac{2}{10}\\
+\pr{X=0 | Y=0} = \frac{1}{100}\\
+\pr{X=1|Y=0} = \frac{1}{10}\\
+\pr{X=2|Y=0} = \frac{2}{10}\\
 \end{cases}
 \end{align}
 Probablity of envelope with no cash prize
 \begin{align}
-               p\brak{Y=1} &= 1-\brak{p\brak{Y=0 | X=0} + p\brak{Y=0|X=1} + p\brak{Y=0|X=2}}\\
+               p\brak{Y=1} &= 1-\brak{p\brak{X=0 | Y=0} + p\brak{X=1|Y=0} + p\brak{X=2|Y=0}}\\
                &=0.69
 \end{align}
 \end{document}

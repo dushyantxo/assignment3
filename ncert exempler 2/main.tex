@@ -95,38 +95,39 @@ Ncert exempler
 \newpage
 
 \maketitle
-\textbf{Question 10.13.3.34}\\
-There are 1000 sealed envelopes in a box, 10 of them contain a cash prize of
-Rs 100 each, 100 of them contain a cash prize of Rs 50 each and 200 of them
-contain a cash prize of Rs 10 each and rest do not contain any cash prize. If they
-are well shuffled and an envelope is picked up out, what is the probability that it
-contains no cash prize?.\\
+\textbf{Question 12.13.3.17}\\
+Bag I contains 3 black and 2 white balls, Bag II contains 2 black and 4 white
+balls. A bag and a ball is selected at random. Determine the probability of selecting
+a black ball.\\
 \solution
 \begin{table}[H]
 \begin{tabular}{|c|c|c|}
 \hline
 Random variable &Value &Definition\\ \hline
-\multirow{}{}{X} &0 & cash prize of Rs 100\\
-&1 &cash prize of Rs 50\\
-&2 &cash prize of Rs 10\\ \hline
-\multirow{}{}{Y} &0 &Envelope with cash prize\\
-&1 & no cash prize\\
+\multirow{}{}{X} &0 & Bag 1\\
+&1 & Bag 2\\
+\hline
+\multirow{}{}{Y} &0 & White ball\\
+&1 & Black ball\\
 \hline
 \end{tabular}
 \caption{Distribution}
 \label{tab:Distribution}
 \end{table}
+Probablity of chosing Bag\\
+\begin{align}
+\pr{Y=0} &= \frac{1}{2}\\
+\pr{Y=1} &= \frac{1}{2}\\
+\end{align}
 Conditional Probabilty,
 \begin{align} 
-\pr{X=0 | Y=0} &= \frac{1}{100}\\
-\pr{X=1|Y=0} &= \frac{1}{10}\\
-\pr{X=2|Y=0} &= \frac{2}{10}\\
+\pr{Y=1|X=0} &= \frac{3}{5}\\
+\pr{Y=1|X=1} &= \frac{1}{3}\\
 \end{align}
 Probablity of envelope with no cash prize
 \begin{align}
-\begin{split}
-               p\brak{Y=1} &= 1-\brak{p\brak{X=0 | Y=0} \\ &\quad+ p\brak{X=1|Y=0} + p\brak{X=2|Y=0}}\\
-               &=0.69
-               \end{split}
+\pr{Y=1} &= \pr{Y = 1 | X = 0}  \pr{X = 0} \\ &+ \pr{Y = 1 | X = 1}  \pr{X = 1}\\
+\pr{Y=1} &= \frac{3}{10} +\frac{1}{6}\\
+         &= \frac{7}{15}
 \end{align}
 \end{document}
